@@ -1,0 +1,8 @@
+version: '3'   
+
+services:
+  debtris:
+    build: .
+    image: debtris
+    ports:
+    - "3000:3000"
